@@ -2,7 +2,7 @@
 
 @ This is a sample Maven project with Docker configuration for handling Global Exception in Springboot.
 
-# Prerequisites
+## Prerequisites
 
 Before getting started, ensure that you have the following software installed on your local machine:
 
@@ -18,3 +18,6 @@ Before getting started, ensure that you have the following software installed on
 4. Run the Docker container: docker run -d -p 8080:8080 <Repo name>  -> docker run -d -p 8080:8080 global-exception
 5. Check if image is created using : docker images
 
+
+## Contributing
+Contributions are welcome! If you encounter any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request.
