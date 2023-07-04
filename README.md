@@ -17,6 +17,10 @@ Before getting started, ensure that you have the following software installed on
 3. Build the Docker image: docker build --tag <Repo name> .    I have used following name -> **docker build --tag global-exception .**
 4. Run the Docker container: docker run -d -p 8080:8080 <Repo name>  -> docker run -d -p 8080:8080 global-exception
 5. Check if image is created using : docker images
+6. Check if docker is running using : docker ps  (list all running containers)
+7. To stop Docker container you can use following cmds
+   1. Find container ID -> docker ps
+   2. Stop container -> docker stop <container-id-or-name>
 
 
 ## Contributing
